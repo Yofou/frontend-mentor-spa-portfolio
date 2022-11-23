@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.text-heading-xl {
+		@apply font-grotek text-[88px] leading-[88px] tracking-[-2.5px];
+	}
+
+	.text-heading-l {
+		@apply font-grotek text-[48px] leading-[56px] tracking-[-1.5px];
+	}
+
+	.text-heading-m {
+		@apply font-grotek text-[24px] leading-[32px];
+	}
+
+	.text-body-m {
+		@apply font-grotek text-[18px] leading-[28px];
+	}
+
+	.content-container {
+		@apply mx-auto max-w-[1110px] w-full;
+	}
+}
