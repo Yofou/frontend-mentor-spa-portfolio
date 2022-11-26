@@ -17,7 +17,7 @@
 	}
 
 	.text-body-m {
-		@apply font-grotek text-[18px] leading-[28px];
+		@apply font-grotek font-medium text-[18px] leading-[28px];
 	}
 
 	.content-container {
